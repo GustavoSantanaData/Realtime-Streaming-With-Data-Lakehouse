@@ -86,7 +86,7 @@ def main():
             #     vendor_id = str(row_dict['VendorID'])
             #     pickup_datetime_formatted = str(row_dict['pickup_datetime_formatted'])
             #     file_name = f'trip_{vendor_id}_{pickup_datetime_formatted}.json'
-
+ 
             #     record = json.dumps(row_dict)
             #     record_bytes = record.encode('utf-8')
             #     record_stream = io.BytesIO(record_bytes)
